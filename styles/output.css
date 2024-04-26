@@ -740,6 +740,11 @@ video {
   margin-right: auto;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -751,6 +756,10 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-6 {
@@ -890,6 +899,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .w-32 {
@@ -1915,6 +1928,11 @@ video {
   border-style: none;
 }
 
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -2746,6 +2764,10 @@ body{
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:gap-10 {
